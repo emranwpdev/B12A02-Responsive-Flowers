@@ -132,8 +132,8 @@ a{
     text-align: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 160px;
-    gap: 80px;
+    margin-top: 80px;
+    
     
 }
 .flower-left{}
@@ -146,4 +146,10 @@ a{
 .flower-title{
     font-weight: 700;
     font-size: 3rem;
+}
+.badge-img{
+    width: 286px;
+    height: 286px;
+    margin-left: -180px;
+    margin-bottom: 420px;
 }
