@@ -171,9 +171,16 @@ a{
     align-items: center;
     margin: 0 auto;
     margin-top: 80px;
-    
-    
 }
+
+.img-one, .img-two, .img-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+
+
 .img-one{
     width: 366.22px;
     height: 220px;
@@ -183,6 +190,13 @@ a{
     border-radius: 10px;
     color: white;
     margin: 20px;
+    
+}
+.img-one-title{
+    flex: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
     
 }
 
@@ -205,8 +219,10 @@ a{
     background-size: cover;
     color: white;
     border-radius: 10px;
-
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 }
+
+
 
 
 /* join section */
@@ -218,9 +234,6 @@ a{
     background-size: cover;
     text-align: center;
     margin-top: 80px;
-    
-    
-
 }
 .join-title{
     font-weight: 700;
@@ -228,14 +241,54 @@ a{
     padding-top: 250px;
     color: white;
 }
+
+
+    
+
 input{
     width: 655px;
     height: 50px;
 }
-button{
+.join-btn{
     padding: 17px 50px 17px 50px;
     background-color: rgb(233, 90, 8);
     color: white;
     border: none;
     margin-left: -5px;
+}
+
+/* footer section */
+
+.footer-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.footer-box1{ 
+    text-align: left;
+}
+.f-dec{
+    margin-top: 20px;
+}
+.footer-box2{
+    text-align: left;
+}
+.f-menu{
+margin-bottom: 40px;
+}
+
+.footer-box3{
+    text-align: left;
+}
+
+.footer-box4{
+    
+}
+.social{
+    margin: 10px;
 }
