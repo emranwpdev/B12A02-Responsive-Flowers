@@ -11,7 +11,7 @@
 }
 
 
-/* header section */
+/* navbar section */
 nav{
     display: flex;
     max-width: 1440px;
@@ -21,7 +21,7 @@ nav{
     margin: 0 auto;
 }
 
-ul{
+.nav-ul{
     display: flex;
     gap: 40px;
     text-align: center;
@@ -36,6 +36,114 @@ a{
     color: rgb(37, 36, 50);
     font-weight: 700;
 }
-li{
+.nav-li{
     list-style: none;
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+.banner-left{
+    text-align: left;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.difarent-color{
+    color: rgb(233, 90, 8);
+}
+
+/* Our Plants section */
+.Our-Plants{
+    max-width: 1440px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+   
+}
+
+.Our-title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* card section */
+
+.card-sec{
+    max-width: 1440px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 80px;
+}
+
+.card-img{
+    border: 2px dashed rgb(206, 203, 203);
+}
+
+
+.card-title{
+    font-weight: 500;
+    font-size: 1.30rem;
+    margin: 10px;
+    
+}
+
+.price{
+    font-weight: 700;
+    font-size: 1.30rem;
+    margin: 10px;
+    
+}
+.card-btn{
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    padding: 26px 80px 26px 80px;
+    border: none;
+    
+}
+/* Flower & Plants Lover section */
+
+.flower-section{
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 160px;
+    gap: 80px;
+    
+}
+.flower-left{}
+
+
+.flower-right{
+    text-align: left;
+}
+
+.flower-title{
+    font-weight: 700;
+    font-size: 3rem;
 }
