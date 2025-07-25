@@ -5,7 +5,7 @@
     align-items: center;
     margin: 0 auto;
 }
-    }
+    
 
    .banner{
     display: flex;
@@ -14,12 +14,18 @@
    }
 
     .banner-title, 
-    .Our-title, .join-title{
+    .Our-title{
 
       font-weight: 500;
       font-size: 3rem;
       margin-top: 50px;
 
+    }
+
+    .join-title{
+        font-weight: 500;
+      font-size: 1.5rem;
+      margin-top: 50px;
     }
 
 
