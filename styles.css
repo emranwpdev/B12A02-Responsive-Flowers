@@ -90,18 +90,16 @@ a{
 
 /* card section */
 
-.card-sec{
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 80px;
     max-width: 1440px;
     justify-content: center;
     text-align: center;
     align-items: center;
     margin: 0 auto;
     margin-top: 80px;
-}
-.card-box{
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    gap: 80px;
 }
 
 .card-img{
@@ -210,6 +208,7 @@ a{
     border-radius: 10px;
     color: white;
     margin: 20px;
+    background-image: rgba(0, 0, 0, 0.4);
 }
 .img-right{
     width: 753px;

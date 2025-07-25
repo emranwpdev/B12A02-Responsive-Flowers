@@ -1,0 +1,86 @@
+@media screen and (max-width:576px) {
+    nav{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+    }
+
+   .banner{
+    display: flex;
+    flex-direction: column-reverse;
+    
+   }
+
+    .banner-title, 
+    .Our-title, .join-title{
+
+      font-weight: 500;
+      font-size: 3rem;
+      margin-top: 50px;
+
+    }
+
+
+   .card-box{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+   
+   .flower-section{
+    display: flex;
+   flex-direction: column;
+   }
+
+   .three-img-sec{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .img-right{
+    width: 366.22px;
+    height: 206px;
+   }
+
+   input{
+    width: 200px;
+    height: 40px;
+   }
+   .join-btn{
+    padding: 12px 25px 12px 25px;
+   }
+
+   .join{
+     height: 250px;
+   }
+
+   .join-title{
+    padding-top: 80px;
+   }
+
+
+   .footer-box{
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+
+   }
+
+   .footer-box1, .footer-box2{
+    text-align: left;
+    margin-left: 20px;
+   }
+
+   .footer-box3, 
+   .footer-box4, 
+   .badge-img,
+   .home,
+    a 
+    {
+    display: none;
+   }
+}
+
