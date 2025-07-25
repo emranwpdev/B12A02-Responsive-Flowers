@@ -93,7 +93,7 @@ a{
 .card-box{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
-    gap: 80px;
+    gap: 20px;
     max-width: 1440px;
     justify-content: center;
     text-align: center;
@@ -102,8 +102,8 @@ a{
     margin-top: 80px;
 }
 
-.card-img{
-    border: 2px dashed rgb(206, 203, 203);
+.card img{
+   width: 100%;
 }
 
 
@@ -125,10 +125,12 @@ a{
     font-size: 1rem;
     background-color: rgb(233, 90, 8);
     color: rgb(255, 255, 255);
-    padding: 26px 80px 26px 80px;
+    padding: 26px 120px 26px 120px;
     border: none;
     
 }
+
+
 /* Flower & Plants Lover section */
 
 .flower-section{
@@ -152,12 +154,14 @@ a{
 .flower-title{
     font-weight: 700;
     font-size: 3rem;
+    margin-bottom: 20px;
 }
 .badge-img{
     width: 286px;
     height: 286px;
     margin-left: -180px;
     margin-bottom: 420px;
+    filter: drop-shadow(8px 8px 10px gray);
 }
 
 /* three img section */
@@ -182,7 +186,7 @@ a{
 .img-one{
     width: 366.22px;
     height: 220px;
-    background-image: url(./assets/deal-bloom.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-bloom.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -202,23 +206,23 @@ a{
 .img-two{
     width: 366.22px;
     height: 206px;
-    background-image: url(./assets/deal-ana.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-ana.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
     color: white;
     margin: 20px;
-    background-image: rgba(0, 0, 0, 0.4);
+  
 }
 .img-right{
     width: 753px;
     height: 450.13px;
-    background-image: url(./assets/deal-zabo.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     border-radius: 10px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   
 }
 
 
